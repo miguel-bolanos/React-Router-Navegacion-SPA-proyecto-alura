@@ -3,6 +3,7 @@ import "../assets/css/componentes/card.css"
 import { buscar } from "../api/api"
 import { Link } from "react-router-dom"
 
+
 const ListPosts = ({ url }) => {
 
     const [posts,setposts] = useState([])
